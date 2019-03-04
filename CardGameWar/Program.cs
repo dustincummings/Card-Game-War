@@ -6,7 +6,8 @@ namespace CardGameWar
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Game program = new Game();
+            program.Run();
         }
     }
 }
